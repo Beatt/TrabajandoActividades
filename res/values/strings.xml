@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Calculadora</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="txtNumero1">Ingrese un número: </string>
+	<string name="txtNumero2">Ingrese otro número: </string>
+	<string name="btnEnviar">+</string>
+	<string name="txtResultado">La suma de los números </string>
+	<string name="btnRegresar">Regresar</string>
+
+</resources>

@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    android:background="@drawable/ic_launcher" >
+    
+    <TextView
+        android:id="@+id/txtNumero1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/txtNumero1"
+        android:textColor="@color/txtColor" 
+        android:padding="5dp"
+        android:textSize="25dp"/>
+    
+    <EditText
+        android:id="@+id/edtxtNumero1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"/>
+
+    <TextView
+        android:id="@+id/txtNumero2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/txtNumero2"
+        android:textColor="@color/txtColor"
+        android:padding="5dp"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/edtxtNumero2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:inputType="number"
+        android:ems="10" />
+
+	<Button 
+	    android:id="@+id/btnEnviar"
+	    android:layout_width="150dp"
+	    android:layout_height="50dp"
+	 	android:text="@string/btnEnviar"
+	 	android:layout_marginTop="20dp"
+	 	/>
+</LinearLayout>

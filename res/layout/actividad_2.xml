@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    android:background="@drawable/background_resultado" >
+    
+    <TextView 
+        android:id="@+id/txtResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtResultado"
+        android:layout_marginTop="50dp" 
+        android:textSize="25dp"
+        android:textColor="@color/txtColorResultado"/>
+    
+    <Button
+        android:id="@+id/btnRegresar"
+        style="@style/AppTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/btnRegresar"
+        android:textColor="@color/txtColorResultado"/>
+
+</LinearLayout>
